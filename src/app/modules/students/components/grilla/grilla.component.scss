@@ -1,0 +1,41 @@
+.list-body{
+    text-align: center;
+    background-color: rgb(219, 220, 223) !important;
+    color: rgb(0, 64, 240);
+}
+.list-head{
+    text-align: center;
+    width: 20%;
+    background-color: rgb(223, 224, 228) !important;
+    color:  rgb(0, 64, 240);
+}
+.actions{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    button{
+        height: 30px;
+        width: 30px;
+    }
+}
+.grid-action{
+    margin: 30px 0;
+}
+
+.icon-display{
+    font-size: 18px;
+}
+
+mat-slide-toggle{
+    color: white;
+}
+
+.mat-table{    
+    border-radius: 8px;
+    overflow:hidden !important;
+}
+
+table{
+    background-color: rgb(103, 126, 241) !important;
+}

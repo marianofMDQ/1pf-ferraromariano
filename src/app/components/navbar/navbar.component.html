@@ -1,0 +1,32 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="over" opened="false">
+        <mat-toolbar class="toolbar primaryCustom toggleSidebar" (click)="sidenav.toggle()">
+            <h1 class="title">Cursos de Tecnologia</h1>
+        </mat-toolbar>
+        <mat-nav-list>
+            <mat-list-item>
+                <a mat-list-item-link href="#">Inicio</a>
+            </mat-list-item>
+            <mat-list-item>
+                <a mat-list-item-link href="#">Cursos disponibles</a>
+            </mat-list-item>
+            <mat-list-item>
+                <a mat-list-item-link href="#">Contacto</a>
+            </mat-list-item>
+            <mat-list-item>
+                <a mat-list-item-link href="#">Nosotros</a>
+            </mat-list-item>
+        </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+        <mat-toolbar color="primary" >
+            <button mat-icon-button (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+            <span>Casacoder</span>
+        </mat-toolbar>
+
+        <app-grilla></app-grilla>
+    </mat-sidenav-content>
+</mat-sidenav-container>

@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body { height: 100%; box-sizing: border-box;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.primaryCustom{
+    background-color: rgb(67, 70, 68) !important;
+    color: rgb(249, 255, 255);
+}
+
+mat-dialog-container{
+    background-color: rgb(39, 40, 45) !important;
+}

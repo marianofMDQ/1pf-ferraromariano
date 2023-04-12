@@ -1,0 +1,35 @@
+.mat-sidenav-container {
+    height: 100vh;
+  }
+  
+  .mat-toolbar {
+    position: static;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .mat-sidenav {
+    width: 250px;
+    background-color: rgb(35, 67, 226) !important;
+  }
+  
+  mat-list-item{
+
+    color: white !important;
+  }
+  .toolbar{
+    background-color: rgb(108, 71, 243) ;
+  }
+
+  .toggleSidebar{
+    cursor: pointer;
+  }
+
+  mat-sidenav-content{
+    background-color: rgb(63, 106, 235);
+  }
+
+  mat-toolbar{
+    background-color: rgb(53, 72, 241) !important;
+  }
+  
